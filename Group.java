@@ -7,12 +7,6 @@ public class Group extends Student, Student, Student, Student {
   private integer numberOfStudent;
 
   private integer year;
-
-    public Vector  myLesson;
-    public Vector  myLesson;
-    public Vector  myLesson;
-    public Vector  myLesson;
-    /**
    * 
    * @element-type Lesson
    */
