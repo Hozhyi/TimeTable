@@ -29,7 +29,7 @@ public class Timetable
 		while (sc.hasNext()) 
 		{
 			System.out.println(week[n]);
-			for(int i = 0; i <= 5; i++)
+			for(int i = 0; i <6; i++)
 			{
 				t = (sc.nextLine().split("\\|"));
 				if (t.length != 5) continue;
