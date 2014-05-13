@@ -6,7 +6,7 @@ public class Timetable
 	String s;
 	//static Lesson[] ls = new Lesson[20];
 	static Lesson ls;
-	static String[] week = {"Понеділок", "Вівторок", "Середа", "Четвер", "П'ятниця"};
+	static String[] week = {"РџРѕРЅРµРґС–Р»РѕРє","Р’С–РІС‚РѕСЂРѕРє","РЎРµСЂРµРґР°","Р§РµС‚РІРµСЂРі","Рџ'СЏС‚РЅРёС†СЏ"};
 	
 	public Timetable(String s)
 	{
