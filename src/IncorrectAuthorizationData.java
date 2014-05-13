@@ -9,6 +9,6 @@ public class IncorrectAuthorizationData extends Exception
 	
 	public String toString() 
 	{
-		return "ќбл≥ковий запис з лог≥ном '" + L + "' та паролем '" + P + "' не знайдено!"; 
+		return "Account login '" + L + "' and password '" + P + "' not found!"; 
 	}
 }
