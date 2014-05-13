@@ -32,7 +32,7 @@ public class Timetable
 			for(int i = 0; i <6; i++)
 			{
 				t = (sc.nextLine().split("\\|"));
-				if (t.length != 5) continue;
+				if (t.length != 6) continue;
 				ls = new Lesson(Integer.parseInt(t[1]), Integer.parseInt(t[2]));
 				System.out.println(t[0] + ". " + ls.getNS() + " / " +
 				ls.getNL() + " / " + t[3]);
