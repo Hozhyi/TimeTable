@@ -7,9 +7,8 @@ public class IncorrectAuthorizationData extends Exception
 		this.P = P;
 	}
 	
-	//override toString() method
 	public String toString() 
 	{
-		return "Account login '" + L + "' and password '" + P + "' not found!"; 
+		return "ќбл≥ковий запис з лог≥ном '" + L + "' та паролем '" + P + "' не знайдено!"; 
 	}
 }

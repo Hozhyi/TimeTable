@@ -6,7 +6,7 @@ public class Timetable
 	String s;
 	//static Lesson[] ls = new Lesson[20];
 	static Lesson ls;
-	static String[] week = {"РџРѕРЅРµРґС–Р»РѕРє","Р’С–РІС‚РѕСЂРѕРє","РЎРµСЂРµРґР°","Р§РµС‚РІРµСЂРі","Рџ'СЏС‚РЅРёС†СЏ","РЎСѓР±РѕС‚Р°"};
+	static String[] week = {"Понеділок", "Вівторок", "Середа", "Четвер", "П'ятниця"};
 	
 	public Timetable(String s)
 	{
@@ -29,10 +29,10 @@ public class Timetable
 		while (sc.hasNext()) 
 		{
 			System.out.println(week[n]);
-			for(int i = 0; i <6; i++)
+			for(int i = 0; i < 4; i++)
 			{
 				t = (sc.nextLine().split("\\|"));
-				if (t.length != 6) continue;
+				if (t.length != 4) continue;
 				ls = new Lesson(Integer.parseInt(t[1]), Integer.parseInt(t[2]));
 				System.out.println(t[0] + ". " + ls.getNS() + " / " +
 				ls.getNL() + " / " + t[3]);
