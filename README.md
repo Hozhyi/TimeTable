@@ -15,4 +15,4 @@ Members' list
 
 # UML-diagram #
 
-![alt tag](http://fs185.www.ex.ua/show/679937514629/105183142/105183142.png)
+![alt tag](http://fs200.www.ex.ua/show/679937514629/106009555/106009555.png)
