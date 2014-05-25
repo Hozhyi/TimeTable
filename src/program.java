@@ -1,5 +1,7 @@
 import java.util.*;
 import java.io.*;
+import java.lang.Throwable;
+
 
 public class Program {
 	static int type = 0;
@@ -39,7 +41,7 @@ public class Program {
 				authorization(Login, Password);
 				break;
 			} catch (Exception ex) {
-				System.out.println(ex + " Спробуйте знову!");
+				System.out.println(ex + " пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ!");
 				continue;
 			}
 
